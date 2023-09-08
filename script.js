@@ -64,12 +64,19 @@ async function getFiveDayForecast(cityName) {
 }
 
 function displayFiveDayForecast(forecastData) {
+    const fiveDayForecast = [
+        forecastData.list[7],
+        forecastData.list[15],
+        forecastData.list[23],
+        forecastData.list[31],
+        forecastData.list[39]
+    ]
     const forecastList = forecastData.list;
-
+console.log(forecastData)
     const forecastDiv = document.createElement('div');
     forecastDiv.classList.add('forecast');
 
-    forecastList.forEach(item => {
+    fiveDayForecast.forEach(item => {
         const dateTime = new Date(item.dt * 1000);
         const date = dateTime.toDateString();
         const icon = item.weather[0].icon;
