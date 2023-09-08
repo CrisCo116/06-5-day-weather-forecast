@@ -1,0 +1,15 @@
+header {
+    background-color: #007BFF;
+    padding: 40px;
+    margin: 0px;
+}
+
+#search-container {
+    text-align: center;
+    margin: 20px;
+}
+
+#city-input {
+    padding: 5px;
+    margin-right: 10px;
+}
