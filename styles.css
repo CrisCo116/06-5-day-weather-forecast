@@ -20,10 +20,8 @@ header {
     justify-content: center;
 }
 
-.day-column {
-    flex: 0 0 calc(20% - 2px);
-    max-width: 200px;
-    padding: 10px;
+.fiveDayForecast {
+
 }
 
 .weather-card {

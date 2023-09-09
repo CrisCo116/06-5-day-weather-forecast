@@ -114,3 +114,6 @@ function addToSearchHistory(cityName) {
 
     savedCitiesList.appendChild(listItem);
 }
+
+if(existingButton) {
+}
